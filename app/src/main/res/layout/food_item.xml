@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".FoodItemAdapter">
+
+    <data>
+        <variable
+            name="food"
+            type="com.nrp.hammersystemstesttask.model.Pizza" />
+    </data>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/food_item_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp">
+
+            <ImageView
+                android:id="@+id/food_image"
+                android:layout_width="135dp"
+                android:layout_height="135dp"
+                app:imageUrl="@{food.img}"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/image_pending" />
+
+            <TextView
+                android:id="@+id/food_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textFontWeight="700"
+                android:lineHeight="18.75dp"
+                android:textColor="#222831"
+                android:textSize="16sp"
+                app:layout_constraintStart_toStartOf="@+id/food_description"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:visibility="visible" />
+
+            <TextView
+                android:id="@+id/food_description"
+                android:layout_width="171dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="22dp"
+                android:textColor="#AAAAAD"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toTopOf="@+id/food_price"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/food_image"
+                app:layout_constraintTop_toBottomOf="@+id/food_name" />
+
+            <TextView
+                android:id="@+id/food_price"
+                android:layout_width="87dp"
+                android:layout_height="32dp"
+                android:textColor="#FD3A69"
+                android:textSize="13sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</layout>

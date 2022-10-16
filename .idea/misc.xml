@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/yulia/Downloads/HammerSystemsTestTask/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/yulia/Downloads/HammerSystemsTestTask/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/yulia/Downloads/HammerSystemsTestTask/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/yulia/Downloads/HammerSystemsTestTask/app/src/main/res/layout/banner_item.xml" value="0.25226449275362317" />
+        <entry key="..\:/Users/yulia/Downloads/HammerSystemsTestTask/app/src/main/res/layout/category_item.xml" value="0.175" />
+        <entry key="..\:/Users/yulia/Downloads/HammerSystemsTestTask/app/src/main/res/layout/collapsing_layout.xml" value="0.18697916666666667" />
+        <entry key="..\:/Users/yulia/Downloads/HammerSystemsTestTask/app/src/main/res/layout/food_item.xml" value="0.6079691516709511" />
+        <entry key="..\:/Users/yulia/Downloads/HammerSystemsTestTask/app/src/main/res/layout/fragment_food.xml" value="0.1" />
+        <entry key="..\:/Users/yulia/Downloads/HammerSystemsTestTask/app/src/main/res/menu/bottom_app_bar.xml" value="0.18802083333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
